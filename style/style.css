@@ -12,7 +12,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
 }
 .container .digital-clock {
   border-radius: 20px;
@@ -27,9 +26,6 @@ body {
 }
 
 @media (max-width: 1295px) {
-  .container {
-    border: 1px solid black;
-  }
   .container .digital-clock h1 {
     display: block;
     text-align: center;
